@@ -10,7 +10,8 @@ func main() {
 	e := echo.New()
 
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello I am Rifat!")
+		return c.String(http.StatusOK, "Hello I am Rifat!New feature added")
+		
 	})
 
 	e.Start(":8081")

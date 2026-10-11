@@ -12,5 +12,6 @@ func main(){
 
 	fmt.Println(add(10,20))
 	fmt.Println(sub(10,30))
+	fmt.Println("new feature is added")
 
 }
